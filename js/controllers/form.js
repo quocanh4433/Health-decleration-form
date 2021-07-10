@@ -1,6 +1,6 @@
 import { Info } from "../models/Info.js";
 
-let btnNext = document.querySelector('a[href="#next"]');
+let btnNext = document.querySelector('a[href="#finish"]');
 btnNext.setAttribute('id', 'themThongTin');
 
 document.querySelector("#themThongTin").onclick = () => {
